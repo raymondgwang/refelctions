@@ -1,0 +1,27 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+By initializing a repository, I enabled Git to start tracking the changes within the folder. This will allow me to find changes quicker and easier. It also will allow me to review previous version for bugs.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+We use the staging area for testing purpose. We use working directory for accessing files for modification. We use repository to store final files. 
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+Using the Git Add command to add change to the staging area so group of changes can be considered as a package of logical change. This way each commit will only implement changes that are logically related.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Branches would be helpgul in keeping my history organized when I need to test new features or debug an exisiting issue with different fixes. Branches allow me to work on different changes while the master is not changed so the current software is not impacted.
+
+How do the diagrams help you visualize the branch structure?
+
+The diagrams help me to viualize the changes in a linear way and also helps to identify what commits are not reachable on a branch. This way I can be sure where the changes are occurring and if a change is needed to be created as a new branch.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+The result of merging two branches together is they become one branch that consist of all the changes of both branches. The diagram reporesent the changes occured at different points of the branches. 
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+Automatic merging can detect simple conflicts where context is not important. Manual merging can identified the exect intended changes to keep without additional machine learning that GIT need to integrate.
